@@ -43,12 +43,25 @@
                     </div>
                     <div class="collapse navbar-collapse" id="myNav">
                         <ul class="nav navbar-nav">
-                            <ul class="nav navbar-nav">
-                            <li><a href="index.html">Home</a></li>
-							<li><a href="projects.html">Profile</a></li>
-							<li><a href="projects.html#recommendations">Recommendations</a></li>
-							<li><a href="projects.html#projects">Projects</a></li>
-                        </ul>
+							<li class="dropdown">
+								<a class="dropdown-toggle" data-toggle="dropdown" href="#">Home
+								<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li class="index"><a href="index.html"><b>Home</b></a></li>
+								    <li class="index"><a href="index.html#skills">Skills</a></li>
+									<li class="index"><a href="index.html#education">Education</a></li>
+									<li class="index"><a href="index.html#experience">Experience</a></li>
+								</ul>
+							  </li>
+							  <li class="dropdown">
+								<a class="dropdown-toggle" data-toggle="dropdown" href="#">Profile
+								<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="projects.html"><b>Profile</b></a></li>
+								    <li><a href="projects.html#recommendations">Recommendations</a></li>
+									<li><a href="projects.html#projects">Projects</a></li>
+								</ul>
+							  </li>
                         </ul>
                     </div>
 				</nav>
@@ -290,6 +303,18 @@
 								<div class="text-center">
 									<p>I done this project in an open source Competition.</p>
 									<a class="btn btn-primary" role="button" href="https://github.com/kuldeep5894/AnalyticsDashboard" target="_blank">GitHub Project</a>
+								</div>
+							</a>
+						</div>
+						<div class="col-sm-3 col-xs-6 project" data-aos="flip-right" data-aos-anchor-placement="top-bottom">
+							<a href="https://github.com/kuldeep5894/pcc" target="_blank">
+								<div class="text-center">
+									<h3>Punjab Cricket Club</h3>
+								</div>
+								<img alt="portfolio" class="img-responsive" src="images/pcc.png">
+								<div class="text-center">
+									<p>It is a Java Project Web app. I made it for a Cricket Club in Brampton. I used Java, JSP and bootstrap 4. I used MySQL database of this project.</p>
+									<a class="btn btn-primary" role="button" href="https://github.com/kuldeep5894/pcc" target="_blank">GitHub Project</a>
 								</div>
 							</a>
 						</div>
